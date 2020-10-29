@@ -23,11 +23,21 @@ There are 425 images in the train set and 203 in the validation set.
 The article proposed to use different models, Densenet169 or Resnet50. We decided to implement both to see the difference of performance between both models. We try also smaller models with less layers or with a smaller number of filters in the Convolution layers. 
 The results show that all the models learn pretty well with the train set but the results with the validation set are less conclusive. It seems like the models don't see any benefits in the validation set. Maybe it learns too specific features during the training and then struggle to generalize for the validation set and the test set. 
 
+
+<img width="220" alt="loss_densenet" src="https://user-images.githubusercontent.com/65956573/97592450-f6ed4880-1a00-11eb-9968-dd5ceb6d95aa.PNG">
+
 The different steps we have followed to make the results better are the following :
  - Use data augmentation on the training set because there are not enough images in the dataset.
  - Use smaller models such as Vgg16 or Alexnet model with 5 layers that we have used before in the labs for classification tasks.
  - Use standardization instead of normalization of gray scales.
  - Switch the training set with the test set or the validation set to see if there is a good validation on the training set.
  - Visualize the activation map to see what the models learn on the images.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
