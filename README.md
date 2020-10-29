@@ -31,7 +31,11 @@ The results show that all the models learn pretty well with the train set but th
 </p>
 <em>Densenet169 learning curves</em>
 
-
+<p float="left">
+ <img width="216" alt="loss_resnet" src="https://user-images.githubusercontent.com/65956573/97629269-25354d00-1a2e-11eb-90d6-d6fcbf5fcc80.PNG">
+ <img width="213" alt="accuracy_resnet" src="https://user-images.githubusercontent.com/65956573/97629250-1f3f6c00-1a2e-11eb-9091-b0517528ed2b.PNG">
+</p>
+<em>Resnet50 learning curves</em>
 
 The different steps we have followed to make the results better are the following :
  - Use data augmentation on the training set because there are not enough images in the dataset.
