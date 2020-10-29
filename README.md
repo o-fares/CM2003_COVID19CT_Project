@@ -15,5 +15,6 @@ Besides, the splits are given by the author of the challenge in .txt files prese
  
  ### How do we load the data ?
  
- We recover the txt files and make lists with the name of images
+  - Recover the txt files to make lists of path to load images
+  - Load the images with cv2 and normalize them
 
