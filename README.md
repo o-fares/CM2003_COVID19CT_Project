@@ -93,9 +93,10 @@ The different steps we have followed to make the results better are the followin
 
 | Model 	| DenseNet169 	| Resnet50 	| DenseNet augmented 	| VGG 	| AlexNet 	| AlexNet switched 	| AlexNet standardized 	|
 |:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|
-| accuracy 	| 95% 	| 95% 	| 70% 	| 65% 	| 70% 	| 70% 	| 70% 	|
-| val_accuracy 	| ~60% 	| ~65% 	| 50% 	| 55% 	| 52% 	| 55% 	| 52% 	|
+| **accuracy** 	| 95% 	| 95% 	| 70% 	| 65% 	| 70% 	| 70% 	| 70% 	|
+| **val_accuracy** 	| ~60% 	| ~65% 	| 50% 	| 55% 	| 52% 	| 55% 	| 52% 	|
  
- 
+As it is visible in previous results and on the previous table, the results recovered were not as good as expected.
+Several possibilities to improve them were tried, but the validation accuracy stays low.
  
  
