@@ -70,10 +70,10 @@ The different steps we have followed to make the results better are the followin
  ### 4. Activation maps 
  
  <p float="left">
-  <img width="213" alt="vizu12" src="https://user-images.githubusercontent.com/26654114/97636802-f02ef780-1a39-11eb-83cd-7e1f83b2ca82.png"/>
- <img width="213" alt="vizu22" src="https://user-images.githubusercontent.com/26654114/97636799-f02ef780-1a39-11eb-8b44-c6addd3d37e4.png"/>
- <img width="216" alt="vizu1" src="https://user-images.githubusercontent.com/26654114/97636793-ef966100-1a39-11eb-8ccd-88238742eb75.png"/>
- <img width="216" alt="vizu21" src="https://user-images.githubusercontent.com/26654114/97636791-ee653400-1a39-11eb-8795-269f7867ab52.png"/>
+  <img width="210" alt="vizu12" src="https://user-images.githubusercontent.com/26654114/97636802-f02ef780-1a39-11eb-83cd-7e1f83b2ca82.png"/>
+ <img width="210" alt="vizu22" src="https://user-images.githubusercontent.com/26654114/97636799-f02ef780-1a39-11eb-8b44-c6addd3d37e4.png"/>
+ <img width="213" alt="vizu1" src="https://user-images.githubusercontent.com/26654114/97636793-ef966100-1a39-11eb-8ccd-88238742eb75.png"/>
+ <img width="213" alt="vizu21" src="https://user-images.githubusercontent.com/26654114/97636791-ee653400-1a39-11eb-8795-269f7867ab52.png"/>
 </p>
 
 
