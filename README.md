@@ -7,9 +7,9 @@ The challenge is a classification task of covid patients using CT scans.
 ## Data Presentation:
 
 The dataset is composed of COVID and NonCOVID images. Some images come from article and some directly from CT. The images extracted from the article have a poorer resolution but radiologists have confirmed the utility of these images. 
-The image files are in /Project/CT_COVID and /Project/CT_NonCOVID
+The image files are in <code>/Project/CT_COVID and /Project/CT_NonCOVID</code>
 
-Besides, the splits are given by the author of the challenge in .txt files present in /Project/Data_split/COVID and /Project/Data_split/NonCOVID
+Besides, the splits are given by the author of the challenge in <code>.txt</code> files present in <code>/Project/Data_split/COVID</code> and <code>/Project/Data_split/NonCOVID</code>
  - trainCT_COVID, testCT_COVID, valCT_COVID,
  - trainCT_NonCOVID, testCT_NonCOVID, valCT_NonCOVID
 There are 425 images in the train set and 203 in the validation set. 
@@ -20,7 +20,7 @@ There are 425 images in the train set and 203 in the validation set.
   - Load the images with cv2 and normalize them
 
 ## Models and results :
-The article proposed to use different models, DenseNet169 or ResNet50. We decided to implement both to see the difference of performance between both models. We try also smaller models with less layers or with a smaller number of filters in the Convolution layers. 
+The article proposed to use different models, **DenseNet169** or **ResNet50**. We decided to implement both to see the difference of performance between both models. We try also smaller models with less layers or with a smaller number of filters in the Convolution layers. 
 The results show that all the models learn pretty well with the train set but the results with the validation set are less conclusive. It seems like the models don't see any benefits in the validation set. Maybe it learns too specific features during the training and then struggle to generalize for the validation set and the test set. 
 
 
