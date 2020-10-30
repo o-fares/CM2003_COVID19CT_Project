@@ -12,6 +12,7 @@ The image files are in <code>/Project/CT_COVID and /Project/CT_NonCOVID</code>
 Besides, the splits are given by the author of the challenge in <code>.txt</code> files present in <code>/Project/Data_split/COVID</code> and <code>/Project/Data_split/NonCOVID</code>
  - trainCT_COVID, testCT_COVID, valCT_COVID,
  - trainCT_NonCOVID, testCT_NonCOVID, valCT_NonCOVID
+ 
 There are 425 images in the train set and 203 in the validation set. 
  
  ### How do we load the data ?
