@@ -21,6 +21,13 @@ There are 425 images in the train set and 203 in the validation set.
 
 ## Models and results :
 The article proposed to use different models, **DenseNet169** or **ResNet50**. We decided to implement both to see the difference of performance between both models. We try also smaller models with less layers or with a smaller number of filters in the Convolution layers. 
+The initial parameters are resumed in the following table and will be used in the next attempts.
+
+| Epochs 	| Batch size 	| Filter number 	| Learning rate 	|     Loss function    	|     Metrics     	|
+|:------:	|:----------:	|:-------------:	|:-------------:	|:--------------------:	|:---------------:	|
+|   100  	|     16     	|       32      	|     10^-5     	| binary cross entropy 	| binary accuracy 	|
+
+
 The results show that all the models learn pretty well with the train set but the results with the validation set are less conclusive. It seems like the models don't see any benefits in the validation set. Maybe it learns too specific features during the training and then struggle to generalize for the validation set and the test set. 
 
 
@@ -79,8 +86,15 @@ The different steps we have followed to make the results better are the followin
 
  ### 5. Data standardization
 
- 
- 
+![stand1](https://user-images.githubusercontent.com/26654114/97695970-281f5480-1aa5-11eb-9d2b-7406a99d2178.png)
+![stand2](https://user-images.githubusercontent.com/26654114/97695967-2786be00-1aa5-11eb-801d-b39caeabd7fa.png)
+
+## Discussion
+
+| Model 	| DenseNet169 	| Resnet50 	| DenseNet augmented 	| VGG 	| AlexNet 	| AlexNet switched 	| AlexNet standardized 	|
+|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|:-:	|
+| accuracy 	| 95% 	| 95% 	| 70% 	| 65% 	| 70% 	| 70% 	| 70% 	|
+| val_accuracy 	| ~60% 	| ~65% 	| 50% 	| 55% 	| 52% 	| 55% 	| 52% 	|
  
  
  
