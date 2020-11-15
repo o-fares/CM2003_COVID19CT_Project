@@ -104,7 +104,7 @@ Several possibilities to improve them were tried, but the validation accuracy st
  
  ## Improvements 
  
- After the first presentation we decided to test another method so as to have a learning behavior for our model. The problem was with the data split, so we decided to shuffle all the data and make two sets, one train set and one validation set but totally different from the previous ones. We used an Alexnet model because the other model were too precise and learnt too specific features. Here are the results :
+After the first project presentation, we decided to test another method so as to have a learning behavior for our model. The problem was with the data split, so we decided to shuffle all the data and make two sets, one train set and one validation set but totally different from the previous ones. We used an Alexnet model because the other model were too precise and learnt too specific features. Here are the results :
  
  <p float="left">
  <img width="214" alt="loss_alex" src="https://user-images.githubusercontent.com/65956573/99188420-1eac1280-275c-11eb-963e-bb5eb5ff8e66.PNG">
@@ -118,4 +118,4 @@ So the model is now learning and the accuracy is roughly 1 for the validation te
 <img width="216" alt="accuracy_std" src="https://user-images.githubusercontent.com/65956573/99188573-e2c57d00-275c-11eb-93a8-1629bcc29702.PNG">
 <em> AlexNet learning curves with standardization </em>
 
-We see that the model reach the maximum accuracy faster. To go further, we could try to implement other methods ot standardization and other models. For, now we have the right behavior and good accuracy.
+We see that the model reaches the maximum accuracy faster. To go further, we could try to implement other methods of standardization and other models. For now we have the right behavior and good accuracy.
