@@ -100,4 +100,18 @@ The different steps we have followed to make the results better are the followin
 As it is visible in previous results and on the previous table, the results recovered were not as good as expected.
 Several possibilities to improve them were tried, but the validation accuracy stays low.
  
+ ## Amelioration 
  
+ After the first presentation we decided to test another method so as to have a learning behavior for our model. The problem was with the data split, so we decided to shuffle all the data and make two sets, one train set and one validation set but totally different from the previous ones. We used an Alexnet model because the other model were too precise and learnt too specific features. Here are the results :
+ 
+ <p float="left">
+ <img width="214" alt="loss_alex" src="https://user-images.githubusercontent.com/65956573/99188420-1eac1280-275c-11eb-963e-bb5eb5ff8e66.PNG">
+<img width="214" alt="accuracy_alex" src="https://user-images.githubusercontent.com/65956573/99188424-2370c680-275c-11eb-967b-000bc93d15fd.PNG">
+<em> AlexNet learning curves with new sets </em>
+
+So the model is now learning and the accuracy is roughly 1 for the validation test. We decided also to use standardization to make the model faster. Here are the results :
+
+ <p float="left">
+<img width="217" alt="loss_std" src="https://user-images.githubusercontent.com/65956573/99188581-e8bb5e00-275c-11eb-9caf-54143c93b796.PNG">
+<img width="216" alt="accuracy_std" src="https://user-images.githubusercontent.com/65956573/99188573-e2c57d00-275c-11eb-93a8-1629bcc29702.PNG">
+<em> AlexNet learning curves with standardization </em>
