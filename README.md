@@ -115,3 +115,5 @@ So the model is now learning and the accuracy is roughly 1 for the validation te
 <img width="217" alt="loss_std" src="https://user-images.githubusercontent.com/65956573/99188581-e8bb5e00-275c-11eb-9caf-54143c93b796.PNG">
 <img width="216" alt="accuracy_std" src="https://user-images.githubusercontent.com/65956573/99188573-e2c57d00-275c-11eb-93a8-1629bcc29702.PNG">
 <em> AlexNet learning curves with standardization </em>
+
+We see that the model reach the maximum accuracy faster. 
