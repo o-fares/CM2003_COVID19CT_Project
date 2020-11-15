@@ -15,6 +15,7 @@ Besides, the splits are given by the author of the challenge in <code>.txt</code
  
 There are 425 images in the train set and 203 in the validation set. 
  
+The link for the data is : https://github.com/UCSD-AI4H/COVID-CT
  ### How do we load the data ?
  
   - Recover the txt files to make lists of path to load images
