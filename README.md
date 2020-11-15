@@ -56,6 +56,8 @@ The different steps we have followed to make the results better are the followin
  - Visualize the <strong>activation maps</strong> to see what the models learn on the images.
  - Use <strong>standardization</strong> instead of normalization of gray scales.
  
+ The corresponding codes are available in the <code>Tests with original data</code> folder.
+ 
  ### 1. Data augmentation 
  
 ![data aug 1](https://user-images.githubusercontent.com/26654114/97636804-f0c78e00-1a39-11eb-9f6e-8b8bafca8ceb.png) 
@@ -111,6 +113,7 @@ After the first project presentation, we decided to test another method so as to
 <img width="214" alt="accuracy_alex" src="https://user-images.githubusercontent.com/65956573/99188424-2370c680-275c-11eb-967b-000bc93d15fd.PNG">
 <em> AlexNet learning curves with new sets </em>
 
+ The corresponding codes are available in the <code>Tests with switched data</code> folder.
 So the model is now learning and the accuracy is roughly 1 for the validation test. We decided also to use standardization to make the model faster. Here are the results :
 
  <p float="left">
