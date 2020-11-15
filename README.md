@@ -7,15 +7,16 @@ The challenge is a classification task of covid patients using CT scans.
 ## Data Presentation:
 
 The dataset is composed of COVID and NonCOVID images. Some images come from article and some directly from CT. The images extracted from the article have a poorer resolution but radiologists have confirmed the utility of these images. 
-The image files are in <code>/Project/CT_COVID and /Project/CT_NonCOVID</code>
+The link for the data is : https://github.com/UCSD-AI4H/COVID-CT
 
-Besides, the splits are given by the author of the challenge in <code>.txt</code> files present in <code>/Project/Data_split/COVID</code> and <code>/Project/Data_split/NonCOVID</code>
+The image files are in <code>Images-processed/CT_COVID.zip</code> and <code>Images-processed/CT_NonCOVID.zip</code>
+
+Besides, the splits are given by the author of the challenge in <code>.txt</code> files present in <code>Data-split/COVID</code> and <code>Data-split/NonCOVID</code>
  - trainCT_COVID, testCT_COVID, valCT_COVID,
  - trainCT_NonCOVID, testCT_NonCOVID, valCT_NonCOVID
  
 There are 425 images in the train set and 203 in the validation set. 
  
-The link for the data is : https://github.com/UCSD-AI4H/COVID-CT
  ### How do we load the data ?
  
   - Recover the txt files to make lists of path to load images
@@ -101,7 +102,7 @@ The different steps we have followed to make the results better are the followin
 As it is visible in previous results and on the previous table, the results recovered were not as good as expected.
 Several possibilities to improve them were tried, but the validation accuracy stays low.
  
- ## Amelioration 
+ ## Improvements 
  
  After the first presentation we decided to test another method so as to have a learning behavior for our model. The problem was with the data split, so we decided to shuffle all the data and make two sets, one train set and one validation set but totally different from the previous ones. We used an Alexnet model because the other model were too precise and learnt too specific features. Here are the results :
  
